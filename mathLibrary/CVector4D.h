@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CVECTOR4D_H
+#define CVECTOR4D_H
 
 class CVector4D
 {
@@ -40,3 +41,6 @@ float Dot(const CVector4D &A, const CVector4D &B);
 CVector4D Cross3(const CVector4D& A, const CVector4D& B);
 float Magnity(const CVector4D& A);
 CVector4D Normalize(const CVector4D& A);
+
+#endif
+
